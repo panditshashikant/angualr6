@@ -14,6 +14,6 @@ export class LoginComponent implements OnInit {
   }
   login()
   {
-    this.router.navigate(['/panelforadmin']);
+    this.router.navigate(['/admin']);
   }
 }

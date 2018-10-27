@@ -17,6 +17,6 @@ export class DashboardComponent implements OnInit {
   }
   activity()
   {
-    this.router.navigate(['/panelforadmin/activity']);
+    this.router.navigate(['/admin/activity']);
   }
 }

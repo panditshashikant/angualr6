@@ -7,7 +7,7 @@ const routes: Routes = [
         path:'',loadChildren:'./auth/auth.module#AuthModule'
     },
     {
-        path:'panelforadmin',loadChildren:'./super-admin/super-admin.module#SuperAdminModule'
+        path:'admin',loadChildren:'./super-admin/super-admin.module#SuperAdminModule'
     }
 ];
 
