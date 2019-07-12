@@ -5,7 +5,7 @@
 
 trigger:
 - master
-
+#shashikant building the project
 pool:
   vmImage: 'Ubuntu-16.04'
 
